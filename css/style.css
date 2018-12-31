@@ -1,13 +1,39 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #333;
+  color: #ffe;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-family: monospace;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(250,250,250,.6);
   float: left;
   position: fixed;
   width: 100%;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:link {
+  color: #66ff99;
+}
+
+a:visited {
+  color: #006633;
+}
+
+a:hover {
+  color: #ffe;
+}
+
+a:active {
+  color: #333;
 }
 
 .logo {
@@ -20,7 +46,7 @@ nav {
 }
 
 .medium-pic {
-  width: 70%;
+  width: 100%;
 }
 
 .left, .right {
@@ -32,6 +58,29 @@ nav {
   float: right;
 }
 
+h1 {
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-style: italic;
+
+}
+
+figcaption {
+  font-size: .75em;
+  line-height: 1em;
+  font-style: italic;
+  padding: 5px;
+}
 ul {
   list-style-type: none;
   float: right;
@@ -42,6 +91,9 @@ li {
   padding: 30px;
 }
 
+.author {
+  font-size: 1.25em;
+}
 article {
   padding-top: 100px;
 }
@@ -49,4 +101,8 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+p {
+  padding-top: 2em;
 }
